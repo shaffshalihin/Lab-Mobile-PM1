@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="#B7C9F2"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DATA PRIBADI"
+        android:layout_marginTop="30dp"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:layout_gravity="center"/>
+    
+    <ImageView
+        android:layout_width="139dp"
+        android:layout_height="164dp"
+        android:layout_marginTop="25dp"
+        android:src="@drawable/minion"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:layout_width="245dp"
+        android:layout_height="34dp"
+        android:text="Nama :Nur Amalia"
+        android:background="#FFC700"
+        android:textSize="25dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="20dp"/>
+    <TextView
+        android:layout_width="241dp"
+        android:layout_height="35dp"
+        android:text="Jenis Kelamin :"
+        android:textSize="25dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="20dp"/>
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <RadioButton
+            android:layout_width="150dp"
+            android:layout_height="30dp"
+            android:text="laki-laki"
+            android:textSize="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="30dp"
+            android:padding="2dp"/>
+        <RadioButton
+            android:layout_width="150dp"
+            android:layout_height="30dp"
+            android:text="perempuan"
+            android:textSize="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="30dp"
+            />
+    </RadioGroup>
+    <TextView
+        android:layout_width="245dp"
+        android:layout_height="34dp"
+        android:text="Hal yang disukai :"
+        android:textSize="25dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="20dp"/>
+
+    <CheckBox
+        android:layout_width="245dp"
+        android:layout_height="34dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginStart="25dp"
+        android:textSize="25dp"
+        android:text="Game"/>
+    <CheckBox
+        android:layout_width="245dp"
+        android:layout_height="34dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginStart="25dp"
+        android:textSize="25dp"
+        android:text="Money"/>
+    <CheckBox
+        android:layout_width="245dp"
+        android:layout_height="34dp"
+        android:layout_marginTop="15dp"
+        android:textSize="25dp"
+        android:layout_marginStart="25dp"
+        android:text="Lainnya"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="117dp"
+        android:orientation="horizontal">
+
+        <EditText
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:hint="Masukkan hal lainnya"
+            android:textSize="25dp" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:text="ok"
+            android:textSize="20dp" />
+    </LinearLayout>
+
+</LinearLayout>
